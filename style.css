@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+.post{
+    background-color: white;
+    margin: auto;
+    width: 400px;
+   
+}
+.post-header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-title{
+    display: flex;
+    gap: 1.0rem;
+}
+.post-header .fa-brands fa-html5{
+    align-items: center;
+    font-size: 8rem;
+}
+.header-title a{
+    text-decoration: none;
+    color: black;
+}
+  
+
+
+.post-img img{
+
+    width: 400px;
+    
+}
+.post-icon{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 25px;
+}
+.post-body{
+    padding: 10px;
+}
+
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    font-size: 50px;
+  }
